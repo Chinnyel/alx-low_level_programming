@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - compilation
+ * main - compilation gcc
  *
  * Return: Always 0 (success)
  */
