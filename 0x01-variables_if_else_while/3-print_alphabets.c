@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n = 97;
-	int c = 65;
+	int m = 65;
 
 	while (n <= 122)
 	{
@@ -16,7 +16,7 @@ int main(void)
 	}
 	while (c <= 90)
 	{
-		putchar(n);
+		putchar(m);
 		n++;
 	}
 	putchar('\n');
