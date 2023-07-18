@@ -1,9 +1,11 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - main block
- * Return: 0
+ * Declaration: print _putchar
+ * Return: 0 (success)
  */
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');
@@ -14,5 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
