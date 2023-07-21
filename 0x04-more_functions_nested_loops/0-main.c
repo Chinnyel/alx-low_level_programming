@@ -9,14 +9,14 @@ int _isupper(int c)
         c = 0;
         int i = 0;
 
-        while (c < 97 || c <= 122)
+        while (c < 97 && c <= 122)
                 c++;
         {
                 _putchar(c);
 
                 return (0);
         }
-        while (i < 65 || i <= 90)
+        while (i < 65 && i <= 90)
                 i++;
         {
                 _putchar(i);
