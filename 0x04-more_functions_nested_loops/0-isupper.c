@@ -7,20 +7,12 @@
 int _isupper(int c)
 {
 	c = 0;
-	int i = 0;
 
-	while (c < 97 && c <= 122)
-		c++;
-	{
-		_putchar(c);
+	if (c > 64 && c < 91)
 
-		return (0);
-	}
-	while (i < 65 && i <= 90)
-		i++;
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
-	return (1);
+		return (1);
+
+	else
+
+	return (0);
 }
