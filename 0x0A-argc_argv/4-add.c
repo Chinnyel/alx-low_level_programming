@@ -11,24 +11,24 @@
  */
 int main(int argc, char *argv[])
 {
-	int b = 0, a, c;
+	int a = 0, i, c;
 
-	for (a = 1; a < argc; a++)
+	for (i = 1; i < argc; i++)
 	{
-		for (c = 0; argv[a][c]; c++)
+		for (c = 0; argv[i][c]; c++)
 		{
-			if (isdigit(argv[a][c]) == 0)
+			if (isdigit(argv[i][c]) == 0)
 			{
 				puts("Erro");
 				return (1);
 			}
 		}
 	}
-	for (a = 1; a < argc; a++)
+	for (i = 1; i < argc; i++)
 	{
-		b += atoi(argv[a]);
+		a += atoi(argv[i]);
 	}
 
-	printf("%d\n", b);
+	printf("%d\n", a);
 	return (0);
 }
