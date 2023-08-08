@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - program that prints minimum no of coins to mk chng 
+ * main - program that prints minimum no of coins to mk chng
  * @argc: arg count
  * @argv: arg vector
  * Return: 0 if no errors, 1 if error
