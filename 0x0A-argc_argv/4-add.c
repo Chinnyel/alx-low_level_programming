@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	{
 		b += atoi(argv[a]);
 	}
+
 	printf("%d\n", b);
 	return (0);
 }
